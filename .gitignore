@@ -1,0 +1,7 @@
+*.tfstate
+*.tfstate.*
+*/.terraform/*
+install_asm_1.9
+asm-dir-primary/
+asm-dir-secondary/
+render/
