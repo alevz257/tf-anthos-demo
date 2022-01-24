@@ -7,3 +7,4 @@ asm-dir-primary/
 asm-dir-secondary/
 render/
 .terraform.lock.hcl
+config-management-operator.yaml
