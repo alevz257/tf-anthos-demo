@@ -8,7 +8,7 @@ module "asm-primary" {
   cluster_endpoint      = module.primary-cluster.endpoint
   enable_all            = true
   outdir                = "./asm-dir-${module.primary-cluster.name}"
-  asm_version           = "1.10"
+  asm_version           = var.asm_version
 }
 
 module "asm-secondary" {
@@ -20,6 +20,6 @@ module "asm-secondary" {
   cluster_endpoint      = module.secondary-cluster.endpoint
   enable_all            = true
   outdir                = "./asm-dir-${module.secondary-cluster.name}"
-  asm_version           = "1.10"
+  asm_version           = var.asm_version
 }
 
