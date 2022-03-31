@@ -16,20 +16,15 @@ variable "secondary_zones" {
   description = "The secondary zones to be used"
 }
 
-variable "acm_repo_location" {
-  description = "The location of the git repo ACM will sync to"
-}
-variable "acm_branch" {
-  description = "The git branch ACM will sync to"
-}
-variable "acm_dir" {
-  description = "The directory in git ACM will sync to"
-}
-
 variable "vpc" {
   description = "The default VPC value"
 }
 
 variable "subnet" {
   description = "The default subnet value"
+}
+
+variable "asm_version" {
+  description = "The default asm version"
+  default = "1.11"
 }

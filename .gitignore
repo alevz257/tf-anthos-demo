@@ -2,7 +2,7 @@
 *.tfstate.*
 */.terraform/*
 .terraform/*
-install_asm_1.9
+install_asm_1.10
 asm-dir-primary/
 asm-dir-secondary/
 render/
